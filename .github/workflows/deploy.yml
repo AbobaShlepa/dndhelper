@@ -22,7 +22,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/dnd'
+          BASE_PATH: '/dndhelper'
         run: |
           npm run build
           touch build/.nojekyll
