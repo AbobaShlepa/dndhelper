@@ -4,14 +4,14 @@
 
 <header class="site-header sticky-top py-1">
   <nav class="container d-flex flex-column flex-md-row justify-content-between">
-    <a class="py-2" href="#" aria-label="Product"><Logo /></a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+    <a class="py-2" href={'#'} aria-label="Product"><Logo /></a>
+    <a class="py-2 d-none d-md-inline-block" href={'#'}>Tour</a>
+    <a class="py-2 d-none d-md-inline-block" href={'#'}>Product</a>
+    <a class="py-2 d-none d-md-inline-block" href={'#'}>Features</a>
+    <a class="py-2 d-none d-md-inline-block" href={'#'}>Enterprise</a>
+    <a class="py-2 d-none d-md-inline-block" href={'#'}>Support</a>
+    <a class="py-2 d-none d-md-inline-block" href={'#'}>Pricing</a>
+    <a class="py-2 d-none d-md-inline-block" href={'#'}>Cart</a>
   </nav>
 </header>
 
@@ -24,7 +24,7 @@
       <p class="lead fw-normal">
         Здесь я буду выкладывать свои проекты для DnD и не только
       </p>
-      <a class="btn btn-outline-secondary" href="#"
+      <a class="btn btn-outline-secondary" href={'#'}
         >Эта кнопка ничего не делает</a
       >
     </div>
@@ -91,39 +91,39 @@
     <div class="col-6 col-md">
       <h5>Технологии</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Svelte</a></li>
-        <li><a class="link-secondary" href="#">Github Pages</a></li>
-        <li><a class="link-secondary" href="#">Typescipt</a></li>
-        <li><a class="link-secondary" href="#">Bootstrap</a></li>
-        <li><a class="link-secondary" href="#">Another one</a></li>
-        <li><a class="link-secondary" href="#">Last time</a></li>
+        <li><a class="link-secondary" href={'#'}>Svelte</a></li>
+        <li><a class="link-secondary" href={'#'}>Github Pages</a></li>
+        <li><a class="link-secondary" href={'#'}>Typescipt</a></li>
+        <li><a class="link-secondary" href={'#'}>Bootstrap</a></li>
+        <li><a class="link-secondary" href={'#'}>Another one</a></li>
+        <li><a class="link-secondary" href={'#'}>Last time</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
       <h5>Resources</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Resource name</a></li>
-        <li><a class="link-secondary" href="#">Resource</a></li>
-        <li><a class="link-secondary" href="#">Another resource</a></li>
-        <li><a class="link-secondary" href="#">Final resource</a></li>
+        <li><a class="link-secondary" href={'#'}>Resource name</a></li>
+        <li><a class="link-secondary" href={'#'}>Resource</a></li>
+        <li><a class="link-secondary" href={'#'}>Another resource</a></li>
+        <li><a class="link-secondary" href={'#'}>Final resource</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
       <h5>Resources</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Business</a></li>
-        <li><a class="link-secondary" href="#">Education</a></li>
-        <li><a class="link-secondary" href="#">Government</a></li>
-        <li><a class="link-secondary" href="#">Gaming</a></li>
+        <li><a class="link-secondary" href={'#'}>Business</a></li>
+        <li><a class="link-secondary" href={'#'}>Education</a></li>
+        <li><a class="link-secondary" href={'#'}>Government</a></li>
+        <li><a class="link-secondary" href={'#'}>Gaming</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
       <h5>About</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Team</a></li>
-        <li><a class="link-secondary" href="#">Locations</a></li>
-        <li><a class="link-secondary" href="#">Privacy</a></li>
-        <li><a class="link-secondary" href="#">Terms</a></li>
+        <li><a class="link-secondary" href={'#'}>Team</a></li>
+        <li><a class="link-secondary" href={'#'}>Locations</a></li>
+        <li><a class="link-secondary" href={'#'}>Privacy</a></li>
+        <li><a class="link-secondary" href={'#'}>Terms</a></li>
       </ul>
     </div>
   </div>
