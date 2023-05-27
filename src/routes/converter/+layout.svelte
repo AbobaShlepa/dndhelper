@@ -1,10 +1,11 @@
 <script>
+  import { base } from '$app/paths'
   import Logo from "../../components/shared/logo.svelte";
 </script>
 
 <header class="site-header sticky-top py-1">
   <nav class="container d-flex flex-column flex-md-row justify-content-between">
-    <a class="py-2" href="/" aria-label="Product"><Logo /></a>
+    <a class="py-2" href="{base}/" aria-label="Product"><Logo /></a>
     <a class="py-2" href="/converter">Конвертер валют Психеи</a>
     <div></div>
 </header>
