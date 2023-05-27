@@ -8,9 +8,9 @@
 <header class="site-header sticky-top py-1">
   <nav class="container d-flex flex-column flex-md-row justify-content-between">
     <a class="py-2" href="{base}/" aria-label="Product"><Logo /></a>
-    <a class="py-2 d-none d-md-inline-block" href="/alchemy">Главная</a>
-    <a class="py-2 d-none d-md-inline-block" href="/alchemy/ingredients">Ингредиенты</a>
-    <a class="py-2 d-none d-md-inline-block dropdown-toggle" href="/alchemy" on:click={() => { menuOpen = !menuOpen}} >Элементы</a>
+    <a class="py-2 d-none d-md-inline-block" href="{base}/alchemy">Главная</a>
+    <a class="py-2 d-none d-md-inline-block" href="{base}/alchemy/ingredients">Ингредиенты</a>
+    <a class="py-2 d-none d-md-inline-block dropdown-toggle" href="{base}/alchemy" on:click={() => { menuOpen = !menuOpen}} >Элементы</a>
     <Legend {menuOpen}/>
   </nav>
 </header>

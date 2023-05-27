@@ -6,7 +6,7 @@
 <header class="site-header sticky-top py-1">
   <nav class="container d-flex flex-column flex-md-row justify-content-between">
     <a class="py-2" href="{base}/" aria-label="Product"><Logo /></a>
-    <a class="py-2" href="/converter">Конвертер валют Психеи</a>
+    <a class="py-2" href="{base}/converter">Конвертер валют Психеи</a>
     <div></div>
 </header>
 
